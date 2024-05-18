@@ -1,1 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+
+  --color-bg: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  --color-text: #34355B;
+  --color-text-lucky: #000;
+  --color-button: #FF9500;
+  --color-bg-text-button: #fff;
+}
+
+body{
+  height: 100vh;
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  background: var(--color-bg)
+}
+
+main{
+  margin-top: -13rem;
+  width: 43rem;
+  height: 43rem;
+  background-color: var(--color-bg-text-button);
+  border-radius: .5rem;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  text-align: center;
+}
+
+#square1 h1{
+  margin-bottom: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+}
+
+#square1 p{
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--color-text);
+  margin-bottom: 2.7rem;
+}
+
+#square1 img{
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
 
