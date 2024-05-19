@@ -59,6 +59,8 @@ main{
   display: none;
 }
 
+
+
 #square2{
   margin-top: -13rem;
   width: 43rem;
@@ -68,6 +70,7 @@ main{
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #square2 h2{
@@ -87,7 +90,27 @@ main{
   margin-bottom: 6rem;
   background-color: var(--color-bg-phraselucky);
   box-shadow: 2px 2px 2px 0px #55555580;
+}
 
+#square2 button{
+  width: 18rem;
+  padding: 1.6rem;
+  background-color: var(--color-button);
+  color: var(--color-bg-text-button);
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.9rem;
+  border-radius: .4rem;
+  border: none;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#square2 button:hover{
+  background-color: #fab758;
+  transition: 0.5s;
 }
 
 
