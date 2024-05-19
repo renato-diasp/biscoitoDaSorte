@@ -22,7 +22,8 @@ body{
   font-size: 1.6rem;
   display: grid;
   place-items: center;
-  background: var(--color-bg)
+  background: var(--color-bg);
+  
 }
 
 main{
@@ -53,13 +54,12 @@ main{
 
 #square1 img{
   cursor: pointer;
+  
 }
 
 .hide{
   display: none;
 }
-
-
 
 #square2{
   margin-top: -13rem;
@@ -112,5 +112,55 @@ main{
   background-color: #fab758;
   transition: 0.5s;
 }
+
+#square1 img:hover{
+  animation-name: shake;
+  animation-duration: .2s;  
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes shake{
+  25%{
+    transform: translateX(.4rem);
+  }
+  50%{
+    transform: translateX(-.4rem);
+  }
+  75%{
+    transform: translateY(.4rem);
+  }
+  100%{
+    transform: translateY(-.4rem);
+  }
+}
+
+#square2 p{
+  animation-name:  slidetop;
+  animation-duration: 1s, 1s;  
+  animation-direction: alternate;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: linear;
+  
+}
+
+@keyframes appear{
+  0%{
+    transform: scale(0);    
+  }100%{
+    transform: scale(1rem);
+  }
+
+}
+
+@keyframes slidetop{
+  0%{
+    transform: translateY(15rem);
+  }
+}
+
+
+
 
 
