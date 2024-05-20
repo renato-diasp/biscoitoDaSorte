@@ -152,6 +152,13 @@ main{
   }
 }
 
+@media (max-width: 768px){
+  body{
+    padding: 5rem;
+    width: 100vw;
+  }
+}
+
 
 
 
