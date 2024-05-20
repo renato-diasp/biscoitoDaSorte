@@ -29,8 +29,9 @@ function hiddenElements (){
 
 // função que insere uma frase aleatoria na tela
 function randomPhrases(){
-  let indexPhrase = ((Math.random())*10).toFixed(0);
+  let indexPhrase = ((Math.random())*9).toFixed(0);
   randomPhrase.innerText = `${phraseList[indexPhrase]}`;
+  console.log(`${indexPhrase}`)
 }
 
 // chamada das funções
