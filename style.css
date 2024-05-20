@@ -71,6 +71,7 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: .5rem;
 }
 
 #square2 h2{
@@ -156,6 +157,26 @@ main{
   body{
     padding: 5rem;
     width: 100vw;
+  }
+
+  main{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  main img{
+    width: 100%;
+    aspect-ratio: 4/3;
+  }
+
+  #square2{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  section img{
+    width: 100%;
+    
   }
 }
 
